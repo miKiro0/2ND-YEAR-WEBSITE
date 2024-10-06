@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(255, 255, 0);
+    font-family: Arial, sans-serif;
+}
+
+.w3-container {
+    position: fixed;
+    color: aquamarine;
+    background-color:  rgb(255, 0, 255);
+    
+}

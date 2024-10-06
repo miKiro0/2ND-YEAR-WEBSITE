@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>LEARN IT!</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="/HTML - CSS/1st sem WEBSITE/STYLE.css" rel="stylesheet>"
+<body>
+<!--THIS NAV BAR IS OPEN FOR CHANGES AND ALTERATIONS-->
+<div class="w3-sidebar w3-bar-block w3-blue-grey w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">&times;</button>
+  <a href="#" class="w3-bar-item w3-button">HOME</a>
+  <a href="#" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#" class="w3-bar-item w3-button">CONTACTS</a>
+</div>
+
+<div>
+  <button class="w3-button w3-white w3-xxlarge" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+    <!--this is where we put the media-->
+  </div>
+</div>
+<!--make this outline not inline para much cleaner-->
+<script>
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+     
+</body>
+</html>
